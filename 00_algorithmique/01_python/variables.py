@@ -1,15 +1,19 @@
 # il existe 3 types de vaiable sur python 
 
-variable1= 5 # integer >int qui symbolise un nombre entièr 
+variable1 = 5 # integer >int qui symbolise un nombre entièr 
 variable2 = 3.2 # float > float qui symbolise chiffre a virgule 
 variable3 = "coucou" # strig > str  qui symbolise du texte 
-
+variable4 = True #boolean > bool symbolyse une variable soit vrai 
+                #soit faux 
+variable5 = ["1er","2eme", "3eme"] #Liste > une variable qui 
+                                   # comprend 3 sting
 #Fonction qui permet d'afficher du texte et le contenu d'une variable
 # a l'ecran
-print("du texte",variable,variable2,variable3)
+print("du texte", variable1,variable2,variable3,variable4)
+print( variable5[1] )
 
 #Fonction permetant de connaitre le type d'une variable
-print( type(variable) )
+print( type(variable1) )
 
 typeDeVariable = type(variable1)
 
